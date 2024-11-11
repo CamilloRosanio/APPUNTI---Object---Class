@@ -86,7 +86,11 @@ console.log(giulio);
 /* Visto che alcune CLASS possono avere caratteristiche comuni, posso usare le EXTENDS.
 Un esempio pratico è definire la classe generica ANIMALS, e poi due moduli separati di
 Leone e Pappagallo.
-Non devo ogni volta replicare le caratteristiche comuni, ma uso LION come un EXTEND della CLASS ANIMALS. */
+Non devo ogni volta replicare le caratteristiche comuni, ma uso LION come un EXTEND della CLASS ANIMALS.
+
+Per creare una nuova INSTANCE devo comunque passare tutti i PARAMETERS anche della classe con attributi comuni,
+richiamando il CONSTRUCTOR della CLASS PARENT.Per farlo uso il SUPER CONSTRUCTOR, ovvero il costruttore
+della CLASS genitrice (ANIMALS in questo caso).*/
 
 // Esempio di SINTASSI
 
@@ -94,3 +98,4 @@ Non devo ogni volta replicare le caratteristiche comuni, ma uso LION come un EXT
 class Parrot extends Animal {
 hasWings;
 }
+*/
