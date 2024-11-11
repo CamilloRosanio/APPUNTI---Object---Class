@@ -99,3 +99,20 @@ class Parrot extends Animal {
 hasWings;
 }
 */
+
+
+
+
+/************************************
+||  KEYWORDS PER RICERCA DOCUMENTAZIONE
+************************************/
+
+/*
+OBJECT CLASS
+CONSTRUCTOR
+EXTENDS
+SUPER CONSTRUCTOR
+CLASS METHOD (FUNCTION)
+CLASS INSTANCE
+INSTANCEOF (testa un elemento per vedere se è una Instance di una certa classe)
+*/
