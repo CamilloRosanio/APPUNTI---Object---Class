@@ -75,3 +75,22 @@ console.log('CONSOLE LOG della PERSON giulio:')
 const giulio = new Person ('Giulio', 'Verdi', 'tre', null);
 
 console.log(giulio);
+
+
+
+
+/************************************
+||  NOTE: EXTENDS delle CLASS
+************************************/
+
+/* Visto che alcune CLASS possono avere caratteristiche comuni, posso usare le EXTENDS.
+Un esempio pratico è definire la classe generica ANIMALS, e poi due moduli separati di
+Leone e Pappagallo.
+Non devo ogni volta replicare le caratteristiche comuni, ma uso LION come un EXTEND della CLASS ANIMALS. */
+
+// Esempio di SINTASSI
+
+/*
+class Parrot extends Animal {
+hasWings;
+}
