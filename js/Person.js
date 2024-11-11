@@ -45,7 +45,6 @@ class Person {
 
 /* In questo modo tramite NEW creo un nuovo oggeto dalla mia CLASS dichiarandolo come variabile.
 Si chiama INSTANCE, ovvero "esemplare" o "esempio" della CLASS PERSON.*/
-
 const mario = new Person ('Mario', 'Rossi', 23, null);
 
 /* Se lo stampo in console, vedrò l'OBJECT "mario" indicato come PERSON in quanto creato con quella classe.
@@ -56,14 +55,23 @@ console.log(typeof mario);
 console.log(mario.age);
 console.log(mario.getFullName());
 
+
+
+
+
 /* Questa è una nuova INSTANCE di PERSON */
 const alessio = new Person ('alessio', 'Bianchi', 34, 'scrittore');
 console.log('CONSOLE LOG della PERSON alessio:')
 console.log(mario);
 
+
+
+
+
 /* Ecco un esempio di nuova INSTANCE con ERROR */
 console.log('CONSOLE LOG della PERSON giulio:')
 
+// Provoco volontariamente un ERROR mettendo una STRING al posto di un NUMBER per il parametro AGE.
 const giulio = new Person ('Giulio', 'Verdi', 'tre', null);
 
 console.log(giulio);
